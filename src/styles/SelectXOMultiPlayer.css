@@ -1,0 +1,94 @@
+.multi-player-select-xo-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: stretch;
+  transition: var(--transition);
+}
+
+.multi-player-select-xo-buttons img {
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.multi-player-select-xo-buttons img.active-blue {
+  background-color: rgba(29, 29, 219, 0.2);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.multi-player-select-xo-buttons img.active-red {
+  background-color: rgba(219, 29, 29, 0.2);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.p1 {
+  color: rgb(29, 29, 219);
+}
+.p2 {
+  color: rgb(219, 29, 29);
+}
+.actions-btn-multi {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.actions-btn-multi button {
+  margin-top: 0;
+}
+
+.score-box.multi h3 {
+  white-space: nowrap;
+  -webkit-text-stroke: 1px black;
+}
+.player1-score h3,
+.turn .p1 {
+  -webkit-text-stroke: 1px blue !important;
+}
+.player2-score h3,
+.turn .p2 {
+  -webkit-text-stroke: 1px red !important;
+}
+
+.win-lose-draw-state.multii {
+  width: auto;
+  height: auto;
+}
+.win-lose-draw-state-multi-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.win-lose-draw-state-multi-desc h1 {
+  margin-bottom: 0 !important;
+}
+.win-lose-draw-state-multi-desc h3 {
+  margin-bottom: 20px;
+  color: var(--dark-color);
+  font-weight: 500;
+}
+.multi-draw {
+  color: var(--warning-color);
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.multi-won {
+  color: var(--success-color);
+}
+.multi-lose {
+  color: var(--lose-color);
+}
+
+@media (max-width: 768px) {
+  .win-lose-draw-state-multi-desc h1 {
+    font-size: 22px;
+    white-space: nowrap;
+  }
+}

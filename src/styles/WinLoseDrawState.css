@@ -1,0 +1,45 @@
+/* import colors from index.css */
+/* import variables from index.css */
+
+.win-lose-draw-state {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: var(--border-radius);
+  opacity: 0;
+  transition: var(--transition);
+  width: 250px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 9999;
+}
+.win-lose-draw-state h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.win-lose-draw-state.active {
+  opacity: 1;
+  transition: var(--transition);
+  transform: translate(-50%, -20%);
+}
+
+.win-lose-draw-state .winner span {
+  color: var(--success-color);
+  font-size: 2rem;
+  font-weight: bold;
+}
+.win-lose-draw-state .draw span {
+  color: var(--warning-color);
+  font-weight: bold;
+}
+.win-lose-draw-state .lose span {
+  color: var(--lose-color);
+  font-weight: bold;
+}
