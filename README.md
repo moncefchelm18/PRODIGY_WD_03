@@ -1,75 +1,50 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Tic-Tac-Toe Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the code for a **Tic-Tac-Toe game**, developed as part of **TASK03** for the **Prodigy Infotech** internship. The game allows users to play against each other or against an AI, featuring a clean and interactive design.
 
-## Available Scripts
+## Features
+- **Multiplayer Mode**: Play against a friend.
+- **Single Player Mode**: Play against an AI opponent.
+- **Dynamic Board**: Responsive design adapting to different screen sizes.
+- **Local Storage**: Player's symbol selections are stored and managed effectively.
 
-In the project directory, you can run:
+## Technologies Used
+- **HTML5**: For the structure of the game interface.
+- **CSS3**: For styling and layout.
+- **JavaScript**: For game logic and interactivity using DOM manipulation.
+- **ReactJS**: For building reusable components and managing application state.
 
-### `npm start`
+## Screenshots
+**Game Interface**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Tic-Tac-Toe Game Interface](screenshot-link-1)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Multiplayer Mode**
 
-### `npm test`
+![Multiplayer Mode](screenshot-link-2)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Single Player Mode**
 
-### `npm run build`
+![Single Player Mode](screenshot-link-3)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/moncefchelm18/PRODIGY_WD_03.git
+2. Navigate to the project directory:
+   ```bash
+   cd tic-tac-toe
+3. Open the index.html file in your browser or set up a local server to view the game.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Demo
+Check out the live version of this landing page [here](https://moncefchelm18.github.io/PRODIGY_WD_03/).
 
-### `npm run eject`
+## Contact
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+If you have any questions or feedback, feel free to reach out via:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# PRODIGY_WD_03
-Task 3 - Tic Tac Toe game for Prodigy Infotech internship
->>>>>>> 710070a6f9fda776e48e64882e950e991565c40e
+- **Email**: mounsif.chelgham@univ-constantine2.dz
+- **Phone**: +213 562 189 015
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/mounsif-chelgham-b94202289/)
+  
