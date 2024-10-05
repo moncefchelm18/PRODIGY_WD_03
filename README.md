@@ -4,9 +4,10 @@ This repository contains the code for a **Tic-Tac-Toe game**, developed as part 
 
 ## Features
 - **Multiplayer Mode**: Play against a friend.
-- **Single Player Mode**: Play against an AI opponent.
+- **Single Player Mode**: Play against an AI opponent with difficulties.
 - **Dynamic Board**: Responsive design adapting to different screen sizes.
 - **Local Storage**: Player's symbol selections are stored and managed effectively.
+- And more other other features to be discovered
 
 ## Technologies Used
 - **HTML5**: For the structure of the game interface.
@@ -15,17 +16,18 @@ This repository contains the code for a **Tic-Tac-Toe game**, developed as part 
 - **ReactJS**: For building reusable components and managing application state.
 
 ## Screenshots
+Here are some screenshots from the game:
 **Game Interface**
 
-![Tic-Tac-Toe Game Interface](screenshot-link-1)
+![Tic-Tac-Toe Game Interface](./screenshots/main-menu.png)
 
 **Multiplayer Mode**
 
-![Multiplayer Mode](screenshot-link-2)
+![Multiplayer Mode](./screenshots/multi-player.png)
 
 **Single Player Mode**
 
-![Single Player Mode](screenshot-link-3)
+![Single Player Mode](./screenshots/single-player.png)
 
 ## Installation
 
