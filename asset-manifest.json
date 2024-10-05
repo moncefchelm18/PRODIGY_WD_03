@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/PRODIGY_WD_03/static/css/main.512a588d.css",
+    "main.js": "/PRODIGY_WD_03/static/js/main.6258ca4b.js",
+    "static/media/bgmusic.mp3": "/PRODIGY_WD_03/static/media/bgmusic.2620fbc4df1658ad53db.mp3",
+    "static/media/XO-bg.jpg": "/PRODIGY_WD_03/static/media/XO-bg.bb1d632f28ad9b27e9cb.jpg",
+    "static/media/xo.png": "/PRODIGY_WD_03/static/media/xo.1b7d12797e00712a7f8f.png",
+    "static/media/win.mp3": "/PRODIGY_WD_03/static/media/win.cedd4174601ec9181151.mp3",
+    "static/media/draw.mp3": "/PRODIGY_WD_03/static/media/draw.a2c13bd89f90df58a020.mp3",
+    "static/media/x.png": "/PRODIGY_WD_03/static/media/x.b5fd3e746fe910b5b237.png",
+    "static/media/o.png": "/PRODIGY_WD_03/static/media/o.c4a4992ec9ac2b3991ca.png",
+    "static/media/failure.mp3": "/PRODIGY_WD_03/static/media/failure.e10e7c12901a6085869f.mp3",
+    "static/media/x-click.mp3": "/PRODIGY_WD_03/static/media/x-click.a0083a5cbf35e477c522.mp3",
+    "static/media/o-click.mp3": "/PRODIGY_WD_03/static/media/o-click.d3255be3ebda3ec42acd.mp3",
+    "index.html": "/PRODIGY_WD_03/index.html",
+    "main.512a588d.css.map": "/PRODIGY_WD_03/static/css/main.512a588d.css.map",
+    "main.6258ca4b.js.map": "/PRODIGY_WD_03/static/js/main.6258ca4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.512a588d.css",
+    "static/js/main.6258ca4b.js"
+  ]
+}
